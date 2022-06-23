@@ -1,5 +1,6 @@
 """
-This examples runs the OpEn Agent, a classical, MPC based agent using [OpEn](https://alphaville.github.io/optimization-engine/).
+This examples runs the OpEn Agent, a classical, 
+MPC based agent using [OpEn](https://alphaville.github.io/optimization-engine/).
 
 NOTE: You will need to install Rust to run this example. See https://rustup.rs/ for instructions.
 """

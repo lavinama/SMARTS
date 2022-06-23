@@ -26,6 +26,8 @@ source .venv/bin/activate
 # upgrade pip, a recent version of pip is needed for the version of tensorflow we depend on
 pip install --upgrade pip
 
+# make sure to install `evdev` before carrying on
+
 # install the current version of python package with the rllib dependencies
 pip install -e .
 
