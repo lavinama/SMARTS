@@ -10,7 +10,7 @@ from smarts.core.utils.episodes import episodes
 from smarts.sstudio import build_scenario
 from smarts.zoo.agent_spec import AgentSpec
 
-N_AGENTS = 40
+N_AGENTS = 4
 AGENT_IDS = ["Agent %i" % i for i in range(N_AGENTS)]
 
 

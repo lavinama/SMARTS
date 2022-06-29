@@ -44,6 +44,9 @@ To run the training procedure,
 # from baselines/marl_benchmark/
 $ python3.7 run.py <scenario> -f <config_file>
 # E.x. python3.7 run.py scenarios/intersections/4lane -f agents/ppo/baseline-lane-control.yaml
+
+# from ./
+# E.x. python3.7 run_marl_benchmark.py scenarios/intersections/4lane -f agents/ppo/baseline-lane-control.yaml
 ```
 
 To run the evaluation procedure for multiple algorithms,

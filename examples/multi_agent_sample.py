@@ -10,7 +10,6 @@ from smarts.sstudio import build_scenario
 from smarts.zoo.agent_spec import AgentSpec
 
 
-
 class SimpleAgent(Agent):
     def act(self, obs):
         return "keep_lane"
@@ -31,8 +30,8 @@ def main(scenarios, headless, num_episodes, max_episode_steps=None):
         "smarts.env:hiway-v0", # env entry name
         scenarios=scenarios, # a list of paths to folders of scenarios
         agent_specs=agent_specs, #  dictionary of agents to interact with the environment
-        headless=False, # headless mode. False to enable Envision visualization of the environment
-        visdom=False, # Visdom visualization of observations. False to disable. only supported in HiwayEnv.
+        # headless=False, # headless mode. False to enable Envision visualization of the environment
+        visdom=True, # Visdom visualization of observations. False to disable. only supported in HiwayEnv.
         seed=42, # RNG Seed, seeds are set at the start of simulation, and never automatically re-seeded.
     )
 
